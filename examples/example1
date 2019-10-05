@@ -1,0 +1,12 @@
+# From "Example of the Glicko-2 system"
+0 game 1500 a rd=200 v=0.06
+0 game 1400 b rd=30
+0 game 1550 c rd=100
+0 game 1700 d rd=300
+
+0 game 1-0 a b
+0 game 0-1 a c
+0 game 0-1 a d
+
+# Expected output for player "a", something like:
+# 1 game 1464.06 a rd=151.52 v=0.05999
