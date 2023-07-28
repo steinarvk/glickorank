@@ -10,7 +10,7 @@ import (
 	"github.com/google/shlex"
 
 	"github.com/steinarvk/glickorank/lib/glicko2"
-	"github.com/steinarvk/linetool/lib/lines"
+	"github.com/steinarvk/glickorank/lib/lines"
 )
 
 type Universe struct {
